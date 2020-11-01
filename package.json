@@ -1,0 +1,36 @@
+{
+  "name": "pwa-graphql",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@apollo/react-hooks": "^4.0.0",
+    "@apollo/react-ssr": "^4.0.0",
+    "@graphql-tools/code-file-loader": "^6.2.5",
+    "@graphql-tools/graphql-file-loader": "^6.2.5",
+    "@graphql-tools/load": "^6.2.5",
+    "@nexus/schema": "^0.17.0",
+    "@prisma/client": "2.10.0",
+    "apollo-boost": "^0.4.9",
+    "apollo-link-schema": "^1.2.5",
+    "apollo-link-state": "^0.4.2",
+    "apollo-server-micro": "^2.19.0",
+    "next": "10.0.0",
+    "next-pwa": "^3.1.5",
+    "nexus-plugin-prisma": "^0.23.1",
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
+  },
+  "devDependencies": {
+    "@prisma/cli": "2.10.0",
+    "@types/node": "^14.14.6",
+    "@types/react": "^16.9.55",
+    "dotenv": "^8.2.0",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.5"
+  }
+}
